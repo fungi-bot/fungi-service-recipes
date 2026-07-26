@@ -4,6 +4,7 @@ id: webdav
 
 run:
   provider: wasmtime
+  mode: http
   source:
     url: https://github.com/enbop/webdav-wasi/releases/download/v0.1.1/webdav-wasi.wasm
   env:
