@@ -38,6 +38,28 @@
       "stability": "experimental"
     },
     {
+      "id": "ubuntu-desktop-web",
+      "name": "Ubuntu Desktop Web",
+      "description": "An Ubuntu XFCE desktop served through a browser by LinuxServer Webtop.",
+      "runtime": "docker",
+      "manifestPath": "recipes/ubuntu-desktop-web/ubuntu-desktop-web.fungi.md",
+      "manifestAsset": "ubuntu-desktop-web.fungi.md",
+      "homepage": "https://github.com/linuxserver/docker-webtop",
+      "tags": ["desktop", "ubuntu", "web", "docker"],
+      "stability": "experimental"
+    },
+    {
+      "id": "ubuntu-dev-ssh",
+      "name": "Ubuntu Development SSH",
+      "description": "An Ubuntu 24.04 development environment accessed through SSH.",
+      "runtime": "docker",
+      "manifestPath": "recipes/ubuntu-dev-ssh/ubuntu-dev-ssh.fungi.md",
+      "manifestAsset": "ubuntu-dev-ssh.fungi.md",
+      "homepage": "https://github.com/devcontainers/images/tree/main/src/base-ubuntu",
+      "tags": ["development", "ssh", "ubuntu", "docker"],
+      "stability": "experimental"
+    },
+    {
       "id": "webdav",
       "name": "WebDAV",
       "description": "A WebDAV server served as a Wasmtime-compatible WASI component.",

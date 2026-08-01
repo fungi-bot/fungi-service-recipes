@@ -21,6 +21,9 @@ The source layout intentionally mirrors the release layout:
 recipes/
   <recipe-id>/
     <recipe-id>.fungi.md
+images/
+  <image-id>/
+    Dockerfile
 index.json
 ```
 
@@ -29,7 +32,13 @@ index.json
 - `code-server`: code-server through the Docker-compatible runtime.
 - `filebrowser-lite`: File Browser Lite through the Wasmtime runtime.
 - `ssh-tunnel`: an existing SSH daemon exposed as a TCP tunnel service.
+- `ubuntu-desktop-web`: an Ubuntu XFCE desktop through LinuxServer Webtop.
+- `ubuntu-dev-ssh`: an Ubuntu 24.04 development environment with SSH.
 - `webdav`: WebDAV through the Wasmtime runtime.
+
+The `ubuntu-dev-ssh` recipe uses the image source under
+`images/ubuntu-dev-ssh`. Pull requests build the image for both amd64 and
+arm64. Changes merged to `main` publish the versioned image to GHCR.
 
 ## Local Build
 
