@@ -5,7 +5,7 @@ id: socks5-wasip2
 run:
   provider: wasmtime
   source:
-    url: https://github.com/enbop/socks5-wasip2/releases/download/v0.1.0/socks5-wasip2.wasm
+    url: https://github.com/enbop/socks5-wasip2/releases/download/v0.1.1/socks5-wasip2.wasm
   args:
     - --listen
     - 127.0.0.1:19080
@@ -48,4 +48,4 @@ proxy can connect to requested destinations.
 ## Source
 
 - Project: <https://github.com/enbop/socks5-wasip2>
-- Artifact URL: <https://github.com/enbop/socks5-wasip2/releases/download/v0.1.0/socks5-wasip2.wasm>
+- Artifact URL: <https://github.com/enbop/socks5-wasip2/releases/download/v0.1.1/socks5-wasip2.wasm>
