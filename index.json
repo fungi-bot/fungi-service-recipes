@@ -27,6 +27,17 @@
       "stability": "experimental"
     },
     {
+      "id": "socks5-wasip2",
+      "name": "SOCKS5 WASIp2",
+      "description": "An unauthenticated SOCKS5 TCP CONNECT proxy served as a Wasmtime-compatible WASI component.",
+      "runtime": "wasmtime",
+      "manifestPath": "recipes/socks5-wasip2/socks5-wasip2.fungi.md",
+      "manifestAsset": "socks5-wasip2.fungi.md",
+      "homepage": "https://github.com/enbop/socks5-wasip2",
+      "tags": ["proxy", "socks5", "tcp", "wasi", "wasmtime"],
+      "stability": "experimental"
+    },
+    {
       "id": "ssh-tunnel",
       "name": "SSH Tunnel",
       "description": "Expose an existing local SSH daemon on a target device as a Fungi TCP tunnel service.",
