@@ -31,6 +31,7 @@ index.json
 
 - `code-server`: code-server through the Docker-compatible runtime.
 - `filebrowser-lite`: File Browser Lite through the Wasmtime runtime.
+- `socks5-wasip2`: an unauthenticated SOCKS5 TCP proxy through the Wasmtime runtime.
 - `ssh-tunnel`: an existing SSH daemon exposed as a TCP tunnel service.
 - `ubuntu-desktop-web`: an Ubuntu XFCE desktop through LinuxServer Webtop.
 - `ubuntu-dev-ssh`: an Ubuntu 24.04 development environment with SSH.
